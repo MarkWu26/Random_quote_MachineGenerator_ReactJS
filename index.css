@@ -1,0 +1,82 @@
+body {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .box {
+    background-color: #fff;
+  }
+  
+  .wrapper {
+    height: 100vh;
+  }
+  
+  .fab {
+    margin-right: 10px;
+  }
+  
+  .fas {
+    margin-right: 10px;
+  }
+  
+  #text {
+    font-size: 1.75em;
+    font-weight: 500;
+  }
+  
+  .opacity {
+    opacity: 1;
+  }
+  
+  .opacity:hover {
+    opacity: 0.9;
+  }
+  
+  .fa-solid {
+    margin-right: 10px;
+  }
+  #author {
+    font-weight: 400;
+    font-size: 1em;
+  }
+  
+  #tweet-quote {
+    padding-right: 10px;
+  }
+  
+  #new-quote {
+    padding-right: 10px;
+  }
+
+  .fade-in {
+    animation: fadeIn 1s;
+    -webkit-animation: fadeIn 1s;
+    -moz-animation: fadeIn 1s;
+    -o-animation: fadeIn 1s;
+    -ms-animation: fadeIn 1s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
